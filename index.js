@@ -1,17 +1,7 @@
-const canvas = document.getElementById("canvas");
-const ctx = canvas.getContext("2d");
-
-
-// First path
-ctx.beginPath();
-ctx.strokeStyle = "blue";
-ctx.moveTo(20, 20);
-ctx.lineTo(200, 20);
-ctx.stroke();
-
-// Second path
-ctx.beginPath();
-ctx.strokeStyle = "green";
-ctx.moveTo(20, 20);
-ctx.lineTo(120, 120);
-ctx.stroke();
+function draw() {
+    const canvas = document.getElementById("tutorial");
+    if (canvas.getContext) {
+        const ctx = canvas.getContext("2d");
+    }
+}
+window.addEventListener("load, draw");
