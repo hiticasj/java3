@@ -1,7 +1,4 @@
-function draw() {
-    const canvas = document.getElementById("tutorial");
-    if (canvas.getContext) {
-        const ctx = canvas.getContext("2d");
-    }
-}
-window.addEventListener("load, draw");
+var myP = document.getElementById("myP");
+var myDiv = document.getElementById("myDiv");
+var myP2 = document.getElementById("myP2");
+var myDiv2 = document.getElementById("myDiv2");
