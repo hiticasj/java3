@@ -23,3 +23,5 @@ function changeText() {
 function changeText2() {
     myP2.textContent = myP2.textContent += "THE REAL ANSWER."
 };
+
+myP.removeEventListener("click",changeText,false);
