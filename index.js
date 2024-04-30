@@ -13,6 +13,8 @@ myP.addEventListener("click", function() { myDiv.style.background = "lightblue" 
 
 myP.addEventListener("click", changeText);
 
+myDiv.addEventListener("mouseover", function(){ myDiv2.style.background = "darkkhaki"});
+
 function changeText() {
     myP2.textContent = "According to a Cornell publication, the answer is ~700 pounds."
 };
