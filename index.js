@@ -11,10 +11,15 @@ myP.addEventListener("click", function() { myDiv.style.background = "lightblue" 
 
 // myP.onclick = function() {"click", function() { myDiv.style.background = "lightblue"}};
 
-myP.addEventListener("click", changeText);
+myP.addEventListener("click", changeText, false);
+myDiv.addEventListener("click", changeText2, false);
 
 myDiv.addEventListener("mouseover", function(){ myDiv2.style.background = "darkkhaki"});
 
 function changeText() {
-    myP2.textContent = "According to a Cornell publication, the answer is ~700 pounds."
+    myP2.textContent = myP2.textContent += "According to a Cornell publication, the answer is ~700 pounds."
+};
+
+function changeText2() {
+    myP2.textContent = myP2.textContent += "THE REAL ANSWER."
 };
